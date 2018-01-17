@@ -58,6 +58,8 @@ namespace Animals.Tests
 
         //  Another method.  Better?
         //  Assert.IsType(expectedDog, new Dog());
+
+        // should these be split into two tests? Is it ok to have 2 Assert statements in one unit test?
            Assert.Equal(typeof(Dog), labrador.GetType());
 
         }

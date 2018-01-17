@@ -1,14 +1,9 @@
 namespace Animals
 {
 
-    public class Dog
+    public class Dog : Animal
     {
-        public string Name { get; set; }
-        public string Species { get; set; }
-
-        public int Speed {get; set;} 
-
-        public int Walk()
+        public override int Walk()
         {
             return this.Speed;
         }

@@ -8,7 +8,7 @@ namespace Animals
 
         public int Speed {get; set;} 
 
-        public int Walk()
+        public virtual int Walk()
         {
             return this.Speed;
         }
